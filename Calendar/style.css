@@ -1,0 +1,50 @@
+table, th, td {
+    text-align: center;
+    border: 3px solid black;
+    /* border-collapse: collapse; */
+    
+}
+th {
+    padding: px;
+}
+td {
+    width: 4cm;
+    height: 3cm;
+    background: rgb(146, 146, 146);
+    color: brown;
+    border-radius: 20px;
+}
+#yellow:hover {
+    background: yellow;
+    color: rgb(7, 35, 177);
+}
+td:hover{
+    background: white;
+    transform: scale(1.1);
+}
+#weekend:hover {
+    background: yellow;
+    color: black;
+    transform: scale(1.2);
+}
+#weekday:hover {
+    background: rgb(213, 167, 167);
+    color: black;
+    transform: scale(1.2);
+}
+#go {
+    background: rgb(110, 109, 109);
+    color: rgb(187, 255, 41);
+}
+table {
+    background: orange;
+}
+h2{
+    color: white;
+}
+
+/* #box-one {
+    width: 80%;
+    padding: 50px;
+    background-color: blue;
+} */
